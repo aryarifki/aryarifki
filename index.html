@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Rifki Aryanto - Professional Portfolio</title>
+    
+    <!-- Preload critical fonts for performance -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"></noscript>
+    
+    <!-- Font Awesome with preload -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <img src="assets/icons/icon.png" alt="Logo Animation" class="logo-animation">
+        </div>
+    </div>
+
+    <!-- Navigation Toggle -->
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </button>
+
+    <!-- Side Navigation -->
+    <nav class="side-nav" id="sideNav" role="navigation" aria-label="Main navigation">
+        <div class="nav-header">
+            <img src="assets/icons/icon.png" alt="Ahmad Rifki Aryanto Logo" class="logo-animation" loading="lazy">
+            <h3>Ahmad Rifki Aryanto</h3>
+        </div>
+        <ul class="nav-links" role="menubar">
+            <li role="none"><a href="#hero" class="nav-link active" data-section="hero" role="menuitem">Home</a></li>
+            <li role="none"><a href="#about" class="nav-link" data-section="about" role="menuitem">About</a></li>
+            <li role="none"><a href="#experience" class="nav-link" data-section="experience" role="menuitem">Experience</a></li>
+            <li role="none"><a href="#education" class="nav-link" data-section="education" role="menuitem">Education</a></li>
+            <li role="none"><a href="#certifications" class="nav-link" data-section="certifications" role="menuitem">Certifications</a></li>
+            <li role="none"><a href="#contact" class="nav-link" data-section="contact" role="menuitem">Contact</a></li>
+        </ul>
+        <div class="nav-footer">
+            <div class="social-links" role="list" aria-label="Social media links">
+                <a href="https://instagram.com/rifqiaarya" target="_blank" aria-label="Instagram profile" role="listitem"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="mailto:adryanrifky716@gmail.com" aria-label="Send email" role="listitem"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                <a href="tel:+6287882725845" aria-label="Call phone number" role="listitem"><i class="fas fa-phone" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title" data-aos="fade-up">
+                    <span class="gradient-text">Ahmad Rifki</span>
+                    <span class="title-secondary">Aryanto</span>
+                </h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Dynamic Professional with 5+ Years Leadership Experience
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View Experience</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card" data-aos="fade-left">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Deep Learning LLM</span>
+                </div>
+                <div class="floating-card" data-aos="fade-left" data-aos-delay="200">
+                    <i class="fas fa-users"></i>
+                    <span>Team Leadership</span>
+                </div>
+                <div class="floating-card" data-aos="fade-left" data-aos-delay="400">
+                    <i class="fas fa-handshake"></i>
+                    <span>Customer Relationship</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <p>
+                            I am a dynamic professional with five years of combined experience in leadership, retail, and customer service. I am currently focusing on developing myself in the fields of deep learning LLM, data science, and create some small projects like landing website and ai automation.
+                            Currently I am studying for a Bachelor of Law degree at Indonesia Open University.
+                        </p>
+                        <div class="skills">
+                            <h3>Core Skills</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Leadership</span>
+                                <span class="skill-tag">Deep Learning LLM</span>
+                                <span class="skill-tag">Customer Service</span>
+                                <span class="skill-tag">Microsoft Office</span>
+                                <span class="skill-tag">Data Science</span>
+                                <span class="skill-tag">Front End Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual" data-aos="fade-left">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <h3>5+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>3</h3>
+                                <p>Companies Worked</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>2025</h3>
+                                <p>Web Developer Certified</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Store Crew</h3>
+                            <h4>PT. Indomarco Prismatama</h4>
+                            <span class="timeline-date">January 2025 - Present</span>
+                            <ul>
+                                <li>Manage daily store operations including cashiering, transactions, display, and stock taking</li>
+                                <li>Provide excellent customer service to ensure satisfaction and experience</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Staff Kitchen</h3>
+                            <h4>Blenger Chinese Food</h4>
+                            <span class="timeline-date">April 2023 - April 2024</span>
+                            <ul>
+                                <li>Support smooth kitchen operations from initial preparation (mise en place) to ready-to-serve dishes</li>
+                                <li>Responsible for maintaining cleanliness and sanitation of work stations</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Store Leader</h3>
+                            <h4>CV. EKA JAYA, Pangkalanbun</h4>
+                            <span class="timeline-date">March 2020 - January 2023</span>
+                            <ul>
+                                <li>Full responsibility for store operations including inventory, finance, ordering</li>
+                                <li>Develop local marketing and build good relationships with suppliers and customers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Education</h2>
+                <div class="education-grid">
+                    <div class="education-card" data-aos="zoom-in">
+                        <i class="fas fa-university"></i>
+                        <h3>Undergraduate Degree in Law</h3>
+                        <p>Indonesia Open University</p>
+                        <span>In Progress</span>
+                    </div>
+                    <div class="education-card" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Computer and Network Engineering</h3>
+                        <p>SMK Temulus, Ngawi</p>
+                        <span>Graduated</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Certifications & Training</h2>
+                <div class="cert-grid">
+                    <div class="cert-card" data-aos="flip-left">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Junior Web Developer</h3>
+                        <p>Ministry of Digital Communications</p>
+                        <span class="cert-date">2025</span>
+                    </div>
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="100">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Skills For Jobs</h3>
+                        <p>Microsoft & Ministry of Economy</p>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <div class="cert-card" data-aos="flip-left" data-aos-delay="200">
+                        <i class="fas fa-code"></i>
+                        <h3>Python Programming</h3>
+                        <p>Online Certification</p>
+                        <span class="cert-date">2021</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h3>Let's Connect</h3>
+                        <p>Ready to bring value to your team with my experience and skills</p>
+                        <div class="contact-details">
+                            <a href="tel:+6287882725845">
+                                <i class="fas fa-phone"></i>
+                                <span>+62 878-8272-5845</span>
+                            </a>
+                            <a href="mailto:adryanrifky716@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                                <span>adryanrifky716@gmail.com</span>
+                            </a>
+                            <a href="https://instagram.com/rifqiaarya" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                <span>@rifqiaarya</span>
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Semarang, Central Java</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" data-aos="fade-left" aria-label="Contact form">
+                        <label for="contact-name" class="sr-only">Your Name</label>
+                        <input type="text" id="contact-name" name="name" placeholder="Your Name" required aria-required="true">
+                        
+                        <label for="contact-email" class="sr-only">Your Email</label>
+                        <input type="email" id="contact-email" name="email" placeholder="Your Email" required aria-required="true">
+                        
+                        <label for="contact-message" class="sr-only">Your Message</label>
+                        <textarea id="contact-message" name="message" placeholder="Your Message" rows="5" required aria-required="true"></textarea>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/interactions.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
